@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.leftNavbar{
+    background-color: #32CD32;
+    min-height: 100vh;
+    width: 20vw;
+    color: #FFFFFF;
+}
+.leftNavbar h2{
+
+}
+.logo{
+    margin: 3.5rem auto;
+    letter-spacing: 0.2rem;
+}
+.menuItem{
+    font: normal normal medium 17px/26px Poppins;
+}
+.teamSelect{
+    position: absolute;
+    bottom: 3rem;
+}
+.btn-light{
+    color: #32CD32 !important;
+    font-weight: bold !important;
+}
+.dp{
+
+}
+
+
+/* style={{ fill: 'var(--color-text-accent)' }} */
